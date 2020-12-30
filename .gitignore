@@ -1,2 +1,5 @@
 env/
 dist/
+build/
+pclpy_dependencies.egg-info/
+pclpy_dependencies/bin/*.dll
