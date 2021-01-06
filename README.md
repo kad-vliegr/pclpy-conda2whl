@@ -21,3 +21,13 @@ by simply zipping two directories in the Anaconda environment.
 The dependencies package is created by running the `setup.py` script,
 which is based on
 [the original pclpy-dependencies project](https://github.com/davidcaron/pclpy-dependencies).
+
+## Installation
+Download the two `.whl` files from the [Releases](https://github.com/kad-vliegr/pclpy-conda2whl/releases) page
+and install them with `pip`.
+For example, for `pclpy` 0.12.0 for Python 3.7.x, you'd run something like the following commands:
+
+```cmd
+C:\Users\Alice> cd Downloads
+C:\Users\Alice\Downloads> py -m pip install pclpy-0.12.0-cp37-cp37m-win_amd64.whl pclpy_dependencies-0.12.0-py3-none-any.whl
+```
