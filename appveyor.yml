@@ -71,7 +71,7 @@ artifacts:
 
 deploy:
   release: pclpy-v$(APPVEYOR_BUILD_VERSION)
-  description: 'Exported pclpy Anaconda package'
+  description: 'Export of pclpy Anaconda package'
   provider: GitHub
   auth_token:
     secure: P8s5hI22kdPokan7IDF9cwJ4bT+vCwQcvBTkIYt9VpY5PkgbS7VZEzkuoaDBrxiP
